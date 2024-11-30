@@ -21,7 +21,7 @@
 #### 3- Binary files dist.bin contains shortest distances to goal and walls.bin contains the walls of the maze (maze is now recognized)
 #### 4- Comment this part of code:
 ```c
- for (int i = 0; i < MAZE_SIZE; i++) {
+    for (int i = 0; i < MAZE_SIZE; i++) {
     for (int j = 0; j < MAZE_SIZE; j++) {
             distArr[i][j] = maze[i][j].distance;
         }
