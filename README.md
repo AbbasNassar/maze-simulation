@@ -31,5 +31,7 @@
             wallsArr[i][j] = maze[i][j].walls;
        }
     }
+    saveArrayToFile(distArr, "dist.bin");
+    saveCharArrayToFile(wallsArr, "walls.bin");
 ```
 #### 5- Build the code in simulator then click run and let the magic of the algorithm amaze you
