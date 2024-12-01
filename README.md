@@ -1,7 +1,7 @@
 ﻿# Maze solving Simulation with C
 ## [Check this amazing simulator with simple API](https://github.com/mackorone/mms-c)
 ### In floodfill implementation:
-#### 1- Comment this part of code:
+#### 1- Comment this part of code (We will use it later):
 ```c
     loadArrayFromFile(distArr, "dist.bin");
     loadCharArrayFromFile(wallsArr, "walls.bin");
@@ -19,7 +19,7 @@
 ```
 #### 2- Build the code in simulator then click run (Getting to know the maze)
 #### 3- Binary files dist.bin contains shortest distances to goal and walls.bin contains the walls of the maze (maze is now recognized)
-#### 4- Comment this part of code:
+#### 4- Comment this part of code (Uncomment the code in step 1 so we can use it):
 ```c
     for (int i = 0; i < MAZE_SIZE; i++) {
     for (int j = 0; j < MAZE_SIZE; j++) {
